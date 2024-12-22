@@ -23,7 +23,7 @@ ros2 launch rl_fra2mo_description fra2mo_explore.launch.py
 ```
 Finally, to send the defined goals to the mobile platform in a given order, in another terminal launch:
 ```bash
-ros2 run rl_fra2mo_description follow_waypoints.launch.py
+ros2 run rl_fra2mo_description follow_waypoints.py
 ```
 ## Launch Rviz 
 To open rviz with our configuration, after launching `gazebo_fra2mo.launch.py` and `fra2mo_explore.launch.py`, in a new terminal run:
